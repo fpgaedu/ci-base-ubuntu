@@ -2,7 +2,7 @@
   "_comment": "Build with `packer build -var-file=ubuntu1610.json ubuntu.json`",
   "vm_name": "ubuntu1610",
   "cpus": "2",
-  "disk_size": "65536",
+  "disk_size": "131072",
   "iso_checksum": "72b0d421da77f1e0c549b4efe6fc6c184e9909d6792f0d1e59b56d63e9705659",
   "iso_checksum_type": "sha256",
   "iso_name": "ubuntu-16.10-server-amd64.iso",
