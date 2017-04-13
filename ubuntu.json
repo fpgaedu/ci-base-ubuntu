@@ -66,6 +66,7 @@
       "floppy_files": [
         "http/{{ user `preseed` }}"
       ],
+      "format": "ova",
       "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
       "guest_os_type": "{{ user `virtualbox_guest_os_type` }}",
       "hard_drive_interface": "sata",
